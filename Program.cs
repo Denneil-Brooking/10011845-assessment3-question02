@@ -85,7 +85,6 @@ namespace _10011845_assessment3_question02
             Console.WriteLine("------------------------------------------");
 
 
-
             var Falcon1 = new Falcon("", "", "", "", "");
             Console.WriteLine("Enter Falcon name: ");
             Falcon1.FalconName = Console.ReadLine();
@@ -100,8 +99,6 @@ namespace _10011845_assessment3_question02
             Console.WriteLine("------------------------------------------");
 
             Console.WriteLine(Falcon1.DisplayFalcon());
-
-
 
             //End the program with blank line and instructions
             Console.ResetColor();
